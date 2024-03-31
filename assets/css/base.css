@@ -1,0 +1,251 @@
+:root {
+    --primary-color: #ee4d2d;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+    --star-gold-color: #ffce3d;
+    --header-height: 120px;
+    --navbar-height: 35.6px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+    --header-sort-bar-height: 46px;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box
+}
+
+.mr-8px {
+    margin-right: 8px;
+}
+
+.ml-16px {
+    margin-left: 16px;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+/* Test */
+.grid__column {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.grid__column--2 {
+    width: calc((100% / 12) * 2)
+}
+
+.grid__column--10 {
+    width: calc((100% / 12) * 10)
+}
+
+.grid__column--10-2 {
+    width: calc((100% / 10) * 2)
+}
+
+.grid__column--12-3 {
+    width: calc((100% / 12) * 4)
+}
+
+.grid__column--12-5 {
+    width: calc((100% / 12) * 2.4)
+}
+
+.grid__column--third {
+    width: calc(100% / 3);
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    animation: fadeIn linear .1s;
+}
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal__body {
+    margin: auto;
+    z-index: 1;
+}
+
+.btn {
+    min-width: 124px;
+    height: 34px;
+    font-size: 1.4rem;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--white-color);
+    color: var(--text-color);
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 12px;
+}
+
+.btn.btn--size-s {
+    height: 32px;
+    padding: 0 8px;
+    font-size: 1.25rem;
+}
+
+.btn.btn--normal:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.btn.btn--primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.btn.btn--disabled {
+    cursor: default;
+    opacity: 0.7 !important;
+    pointer-events: none;
+}
+
+/* Selection */
+.select-input {
+    position: relative;
+    height: 34px;
+    min-width: 200px;
+    padding: 0 12px;
+    border-radius: 2px;
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.select-input:hover .select-input__list {
+    display: block;
+}
+
+.select-input__label {
+    font-size: 1.4rem;
+
+}
+
+.select-input__label-icon {
+    color: #4a4a4a;
+    transform: translateY(1px);
+    font-size: 1.4rem;
+}
+
+.select-input__list {
+    position: absolute;
+    top: calc(100% + 1px);
+    left: 0;
+    right: 0;
+    border-radius: 2px;
+    background-color: var(--white-color);
+    list-style: none;
+    padding: 10px 0;
+    display: none;
+    z-index: 1;
+}
+
+.select-input__item {
+
+}
+
+.select-input__link {
+    display: block;
+    padding: 9px 12px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+
+.select-input__link:hover {
+    color: var(--primary-color);
+}
+
+/* CSS pagination */
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.pagination__item {
+    margin: 0 14px
+}
+
+.pagination__item--disabled {
+    pointer-events: none;
+}
+
+.pagination__item--active {
+    
+}
+
+.pagination__item--active .pagination__link{
+    background-color: #d0011b;
+    color: var(--white-color);
+} 
+
+.pagination__item--active .pagination__link:hover {
+    filter: brightness(120%);
+}
+
+.pagination__link {
+    --height: 30px;
+    text-decoration: none;
+    color: #939393;
+    display: block;
+    min-width: 40px;
+    height: var(--height);
+    text-align: center;
+    line-height: var(--height);
+    border-radius: 2px;
+}
+
+.pagination__icon {
+
+}
+
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes growth {
+    from {
+        transform: scale(var(--growth-from));
+    }
+    to {
+        transform: scale(var(--growth-to));
+    }
+}

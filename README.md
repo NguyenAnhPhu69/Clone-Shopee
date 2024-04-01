@@ -14,23 +14,12 @@ This is a cloned home page website of [Shopee Việt Nam](https://shopee.vn/).
 
 <div  align="center">
 
-<img  src="https://github.com/khoahd7621/clone-shopee/blob/main/demo-images/demo1.png"  alt="Demo 1"  width="45%"></img> &nbsp;&nbsp; <img  src="https://github.com/khoahd7621/clone-shopee/blob/main/demo-images/demo2.png"  alt="Demo 2"  width="45%"></img>
+<img  src="https://github.com/NguyenAnhPhu69/Clone-Shopee/blob/main/assets/img/shopee/shopee-1.png"  alt="Demo 1"  width="45%"></img> &nbsp;&nbsp; <img  src="https://github.com/NguyenAnhPhu69/Clone-Shopee/blob/main/assets/img/shopee/shopee-2.png"  alt="Demo 2"  width="45%"></img>
 
 </div>
 
 ## 📎 Links
 
-- Solution folder: [Github repository](https://github.com/khoahd7621/clone-shopee)
+- Solution folder: [Github repository]([https://github.com/NguyenAnhPhu69/Clone-Shopee)
 - Demo: [Github page](https://khoahd7621.github.io/clone-shopee/)
-
-## 📔 Learn more
-
-- I learned to do this web in [F8 - Học lập trình để đi làm](https://fullstack.edu.vn/).
-- To learn more about HTML, CSS and JavaScript, you can check out [W3Schools](https://www.w3schools.com/).
-
-## ✔️ License & Copyright
-
-© 2022 Khoa Dang Hoang khoahd7621
-
-🤟 Feel free to use my repository and star it if you find something interesting 🤟
 

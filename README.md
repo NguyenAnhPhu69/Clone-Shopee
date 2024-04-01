@@ -20,6 +20,6 @@ This is a cloned home page website of [Shopee Việt Nam](https://shopee.vn/).
 
 ## 📎 Links
 
-- Solution folder: [Github repository]([https://github.com/NguyenAnhPhu69/Clone-Shopee)
-- Demo: [Github page](https://khoahd7621.github.io/clone-shopee/)
+- Solution folder: [Github repository](https://github.com/NguyenAnhPhu69/Clone-Shopee)
+- Demo: [Github page](https://nguyenanhphu69.github.io/Clone-Shopee/)
 
